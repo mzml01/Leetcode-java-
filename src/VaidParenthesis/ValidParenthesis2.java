@@ -1,3 +1,4 @@
+package VaidParenthesis;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -21,8 +22,8 @@ public class ValidParenthesis2 {
     return stack.isEmpty();
     }
     public static void main(String[] args){
-        String s="[]{}()";
-        ValidParenthesis obj=new ValidParenthesis();
-        System.out.println(obj.isValid(s));
+        String s="[]{}(";
+        ValidParenthesis2 obj=new ValidParenthesis2();
+        System.out.println(obj.validParenthesis(s));
     }
 }
